@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    width: 28%;
+    border-collapse: collapse;
+    font-size: 12px;
+    
+}
+ td,th{
+    height: 20px;
+    text-align: left;
+    border: 1px ridge rgb(189, 189, 189);
+    padding: 0 0 0 5px;
+}
+tr{
+    border:hidden;
+    text-align: left;
+    padding: 0 0 0 5px;  
+}    
+th{
+    background-color: rgb(86, 185, 6);
+    color: white;
+    font-style: normal;
+    padding: 0 0 2px 5px;
+}
+tr:nth-of-type(2n+1){
+  background-color: rgb(236, 236, 216);  
+}    
+.img-valign{
+    vertical-align: middle;
+    margin-bottom: 200px;
+}
+   
+   
+
+
+
